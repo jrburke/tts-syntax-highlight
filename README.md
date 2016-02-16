@@ -24,5 +24,5 @@ References to bugs/pull requests for the desired behavior:
 * Atom
     * [atom/language-javascript](https://github.com/atom/language-javascript/pull/282)
 * Sublime Text
-    * Native bundle: todo
+    * Native Package: https://github.com/sublimehq/Packages/issues/179
     * JavaScriptNext package: Benvie/JavaScriptNext.tmLanguage#134
