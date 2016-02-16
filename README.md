@@ -30,6 +30,7 @@ If you know of others, send the repo a pull request, ideally with a screenshot s
 
 ## vim
 
-[Default syntax file seems old](https://github.com/vim/vim/blob/master/runtime/syntax/javascript.vim), dated 2013, so no es2015 support. Seems like plugins are used instead. From conversations on twitter:
+[Default syntax file seems old](https://github.com/vim/vim/blob/master/runtime/syntax/javascript.vim), dated 2013, so no es2015 support. Seems like plugins are used instead. From conversations on twitter, in no particular order:
 
 * https://github.com/pangloss/vim-javascript
+* https://github.com/othree/yajs.vim
