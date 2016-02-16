@@ -17,12 +17,19 @@ Out of the possible parts of a JS function name to use for indicating the string
 
 If you know of others, send the repo a pull request, ideally with a screenshot showing how test.js is displayed in the editor, and we can add it to this list.
 
-## Bug references
+## Editor tracking info
 
-References to bugs/pull requests for the desired behavior:
+### Atom
 
-* Atom
-    * [atom/language-javascript](https://github.com/atom/language-javascript/pull/282)
-* Sublime Text
-    * Native Package: https://github.com/sublimehq/Packages/issues/179
-    * JavaScriptNext package: https://github.com/Benvie/JavaScriptNext.tmLanguage/issues/134
+[atom/language-javascript](https://github.com/atom/language-javascript/pull/282)
+
+## Sublime Text
+
+* Native Package: https://github.com/sublimehq/Packages/issues/179
+* JavaScriptNext package: https://github.com/Benvie/JavaScriptNext.tmLanguage/issues/134
+
+## vim
+
+[Default syntax file seems old](https://github.com/vim/vim/blob/master/runtime/syntax/javascript.vim), dated 2013, so no es2015 support. Seems like plugins are used instead. From conversations on twitter:
+
+* https://github.com/pangloss/vim-javascript
