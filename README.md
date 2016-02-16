@@ -8,7 +8,7 @@ Specifically, it tests if the editors can syntax highlight the HTML and CSS in t
 
 By targeting tagged template functions and looking at the suffix of the name, it gives us a hint to the content type inside the string, similar to a mime type. For security purposes, HTML and CSS should be escaping programmatic values (the stuff in the `${expression}` parts), so using a function for a tagged template string will be commonplace.
 
-Out of the possible parts of a JS function name to use for indicating the string type, it seems using the suffix, ending part of the function name makes the most sense: it is closest to the string value, and is a clearer regexp to use for syntax highlighting, no need to account for the full character set allowed in function names. If a developer wanted to get this syntax highlighting, but the tag function name was not the correct form, it is easy enough to create a local variable like `var html = htmlify` then use the `html` for the tagged template use.
+Out of the possible parts of a JS function name to use for indicating the string type, it seems using the suffix, ending part of the function name makes the most sense: it is closest to the string value, and shoudl be a clearer, simpler regexp to use for syntax highlighting. If a developer wanted to get this syntax highlighting, but the tag function name was not the correct form, it is easy enough to create a local variable like `var html = htmlify` then use the `html` for the tagged template use.
 
 ## Editors/source displays that are known to work as expected:
 
