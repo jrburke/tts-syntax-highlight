@@ -15,7 +15,7 @@ Out of the possible parts of a JS function name to use for indicating the string
 * [GitHub source code display](https://github.com/jrburke/tts-syntax-highlight/blob/master/test.js)
 * Atom editor, once an Atom update ships with v0.108.0 or later of the [atom/language-javascript](https://github.com/atom/language-javascript) package.
 
-If you know of others, send thei repo a pull request, ideally with a screenshot showing how test.js is displayed in the editor, and we can add it to this list.
+If you know of others, send the repo a pull request, ideally with a screenshot showing how test.js is displayed in the editor, and we can add it to this list.
 
 ## Bug references
 
