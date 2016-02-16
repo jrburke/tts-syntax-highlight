@@ -25,4 +25,4 @@ References to bugs/pull requests for the desired behavior:
     * [atom/language-javascript](https://github.com/atom/language-javascript/pull/282)
 * Sublime Text
     * Native Package: https://github.com/sublimehq/Packages/issues/179
-    * JavaScriptNext package: Benvie/JavaScriptNext.tmLanguage#134
+    * JavaScriptNext package: https://github.com/Benvie/JavaScriptNext.tmLanguage/issues/134
